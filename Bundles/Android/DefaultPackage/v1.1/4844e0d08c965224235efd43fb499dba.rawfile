@@ -1,0 +1,19 @@
+print("lua 热更新 c# 代码")
+
+
+print("--------第一个热补丁-------")
+
+
+
+
+
+--静态和 无参不需要 self
+xlua.hotfix(CS.LuaManager, "AAA", function()
+    print("Lua 热补丁")
+end)
+
+--成员方法 带参数的 需要第一个参数是self 
+xlua.hotfix(CS.LuaManager, "BBB", function(self, str)
+    print(str)
+end)
+

@@ -1,0 +1,19 @@
+print("lua 调用 c# 枚举")
+
+UnityEngine = CS.UnityEngine
+--和调用 类 的规则一样
+--CS.命名空间.枚举名.枚举成员
+
+primitiveType = UnityEngine.PrimitiveType
+local obj1 = UnityEngine.GameObject.CreatePrimitive(primitiveType.Cube)
+
+
+--自定义枚举  使用一样，注意命名空间
+MyEnum = CS.MyEnum
+print(MyEnum.a1)
+--字符串转枚举
+local b = MyEnum.__CastFrom("a1")
+print(b)
+
+local c = MyEnum.__CastFrom(2)
+print(c)

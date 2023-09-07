@@ -1,0 +1,30 @@
+print("lua 调用 c# 重载函数")
+
+
+local obj = CS.Lesson6()
+
+--lua自己不支持重载，但是c#可以重载
+print(obj:Calc())
+print(obj:Calc(15, 1))
+
+
+print(obj:Calc(10))
+--lua中值类型只要number 对多精度重载支持不好，会有bug
+print(obj:Calc(10.5))
+--如果要解决重载函数出错问题
+--使用反射机制，获得类型
+local m1 = typeof(CS.Lesson6):GetMethod("Calc", { typeof(CS.System.Int32) })
+
+local m2 = typeof(CS.Lesson6):GetMethod("Calc", { typeof(CS.System.Single) })
+
+
+--通过Xlua的方法，转成函数来使用 一般转一次，重复使用
+
+local f1 = xlua.tofunction(m1)
+local f2 = xlua.tofunction(m2)
+
+--成员方法 第一个要传参数
+--静态方法 第一个不用填
+print(f1(obj, 10))
+
+print(f2(obj, 12.2))

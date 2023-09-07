@@ -1,0 +1,15 @@
+print("lua 调用 c# 扩展方法")
+
+lesson4 = CS.Lesson4
+
+--静态方法
+lesson4.Eat()
+
+
+--成员方法  需要实例化
+local obj = lesson4()
+
+obj:Speak("hhhhhh")
+
+--扩展方法，需要在c#脚本添加特性
+obj:Move()

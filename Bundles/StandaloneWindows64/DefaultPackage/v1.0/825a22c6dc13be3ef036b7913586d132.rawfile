@@ -1,0 +1,40 @@
+print("lua 调用 c# 泛型")
+
+
+local obj = CS.Lesson12()
+
+local child = CS.Lesson12.testChild()
+
+local father = CS.Lesson12.testFather()
+
+--lua支持有约束有参数的泛型函数
+obj:testfun1(child, father)
+
+
+--没有约束的泛型函数   lua不支持 没有约束
+--obj:testfun2(child)
+
+
+--有约束 没参数 的泛型函数   lua不支持 有约束 没有参数
+--obj:testfun3()
+
+
+
+--不支持 非class的约束
+--obj:testfun4(child)
+
+
+
+--只能mono打包使用
+--il2cpp 打包 如果泛型参数是引用类型才可以使用
+--il2cpp 打包 如果泛型参数是值类型，除非c#已经调用过同类型的参数，lua才能使用
+--补充。让上面不支持的变得可用
+--得到通用函数
+--设置泛型类型再使用
+
+--1.得到函数
+local fun2 = xlua.get_generic_method(CS.Lesson12, "testfun2")
+--2.设置泛型
+local fun2_r = fun2(CS.System.Int32)
+--3.调用  成员方法 调用需要先声明对象  第一个参数  静态方法不用传
+fun2_r(obj, 1)

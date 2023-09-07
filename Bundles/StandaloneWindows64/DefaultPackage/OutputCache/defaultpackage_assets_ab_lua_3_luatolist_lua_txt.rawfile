@@ -1,0 +1,72 @@
+print("lua 调用 c# List Dic")
+
+print("----------------array----------------")
+local obj = CS.luaToList()
+
+--c#怎么用 lua 就怎么用
+
+--长度 userdata
+print(obj.array.Length)
+--访问元素
+print(obj.array[0])
+
+--遍历从0开始，不是lua从1开始
+--最大值要-1 lua是小于等于
+for i = 0, obj.array.Length - 1 do
+    print(obj.array[i])
+end
+
+
+--lua中创建数组
+--使用 Array类创建数组
+
+local array2 = CS.System.Array.CreateInstance(typeof(CS.System.Int32), 10)
+print(array2.Length)
+print(array2[0])
+
+
+print("----------------List----------------")
+--调用成员方法用冒号
+print(obj.List.Count)
+obj.List:Add(5)
+obj.List:Add(77)
+
+for i = 0, obj.List.Count - 1 do
+    print(obj.List[i])
+end
+
+--创建list
+local list_string = CS.System.Collections.Generic.List(CS.System.String)
+local list2 = list_string()
+
+list2:Add("sasasasasa")
+print(list2[0])
+
+print("----------------Dic----------------")
+obj.dic:Add(1, "sasasa")
+obj.dic:Add(5, "wawawawa")
+print(obj.dic[1])
+--遍历
+for k, v in pairs(obj.dic) do
+    print(k, v)
+end
+
+
+--创建一个dic
+local dic_string = CS.System.Collections.Generic.Dictionary(CS.System.String, CS.UnityEngine.Vector3)
+
+local dic2 = dic_string()
+dic2:Add("121", CS.UnityEngine.Vector3.right)
+--遍历
+for k, v in pairs(dic2) do
+    print(k, v)
+end
+
+--如果是lua创建的字典 无法跳过【】查询 得到的是nil
+
+print(dic2["121"])
+
+--固定写法
+print(dic2:get_Item("121"))
+dic2:set_Item("121", nil)
+print(dic2:get_Item("121"))

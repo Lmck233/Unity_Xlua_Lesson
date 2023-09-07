@@ -1,0 +1,16 @@
+print("lua 热更新 c# 携程")
+--要使用携程必须引用工具
+local util = require("xlua.util")
+
+
+xlua.hotfix(CS.LuaManager, {
+    testCoroutine = function(self)
+        --需要使用xlua 转换一个fun为携程
+        return util.cs_generator(function()
+            while true do
+                coroutine.yield(CS.UnityEngine.WaitForSeconds(1))
+                print("lua 携程")
+            end
+        end)
+    end
+})

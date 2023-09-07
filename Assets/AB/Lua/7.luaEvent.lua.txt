@@ -1,0 +1,67 @@
+print("lua 调用 c# 委托 事件")
+
+local obj = CS.Lesson7()
+
+--委托是用来装函数的
+
+local fun = function()
+    print("lua FUN函数")
+end
+
+local fun2 = function()
+    print("lua FUN函数222")
+end
+
+
+print("---------委托------------")
+
+--lua 不能使用 +=
+--如果第一次 往委托加函数 因为是nil 不能直接+
+--第一次要 =
+--报错：
+-- obj.del = obj.del + fun
+-- obj.del()
+print("---------开始加函数------------")
+obj.del = fun
+obj.del = obj.del + fun2
+obj.del()
+
+
+--也可以使用 简略表达式 不推荐 不能-
+-- obj.del = function ()
+-- end
+-- obj.del =obj.del+ function ()
+-- end
+
+print("---------开始-函数------------")
+obj.del = obj.del - fun
+obj.del()
+
+
+--清空
+obj.del = nil
+
+
+
+print("---------事件------------")
+
+local fun3 = function()
+    print("lua 事件++")
+end
+
+--事件和委托非常不一样
+obj:eventAction("+", fun2)
+obj:eventAction("+", fun3)
+obj:DoEvent()
+--最好不要这样写
+-- obj:eventAction("+", function ()
+-- end)
+
+
+print("---------事件清楚------------")
+obj:eventAction("-", fun3)
+obj:DoEvent()
+
+--事件不能直接设置nil  只能在c#中设置
+
+obj:ClearEvent()

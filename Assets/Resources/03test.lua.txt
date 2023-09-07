@@ -1,0 +1,26 @@
+local UnityEngine = CS.UnityEngine
+
+
+xlua.hotfix(CS.Cube,'LogDebug',
+    function()
+		UnityEngine.Debug.Log('Lua脚本')
+    end
+)
+
+
+
+
+
+
+
+xlua.hotfix(CS.Cube,'Update',
+        function(self)
+            if(UnityEngine.Input.GetKeyUp(UnityEngine.KeyCode.S)) then
+                        self:LogDebug()
+		        self._rigidbody:AddForce(UnityEngine.Vector3.up * 500)
+            end
+            
+        end
+)
+
+

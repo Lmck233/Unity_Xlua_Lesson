@@ -1,0 +1,20 @@
+print("主Lua 脚本 启动")
+
+--全局变量
+UI = CS.UnityEngine.UI
+
+GameObject = CS.UnityEngine.GameObject
+
+
+
+--判空全局函数
+
+function IsNull(obj)
+    if obj == nil or obj:Equals(nil) then
+        return true
+    end
+    return false
+end
+
+--跨脚本
+require("17.打包测试.lua")

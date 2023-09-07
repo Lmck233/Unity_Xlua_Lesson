@@ -1,0 +1,626 @@
+{
+    "Summary": {
+        "YooVersion": "1.5.3-preview",
+        "UnityVersion": "2021.3.26f1c1",
+        "BuildDate": "2023/9/7 11:46:49",
+        "BuildSeconds": 8,
+        "BuildTarget": 13,
+        "BuildPipeline": 0,
+        "BuildMode": 0,
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "v1.0",
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "UniqueBundleName": true,
+        "SharedPackRuleClassName": "YooAsset.Editor.ZeroRedundancySharedPackRule",
+        "EncryptionServicesClassName": "YooAsset.Editor.EncryptionNone",
+        "OutputNameStyle": 1,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 59,
+        "MainAssetTotalCount": 22,
+        "AllBundleTotalCount": 21,
+        "AllBundleTotalSize": 356966,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0,
+        "RawBundleTotalCount": 20,
+        "RawBundleTotalSize": 12928
+    },
+    "AssetInfos": [
+        {
+            "Address": "1.luaToC#类.lua",
+            "AssetPath": "Assets/AB/Lua/1.luaToC#类.lua.txt",
+            "AssetGUID": "715c9bca9edbc50468a2cbfe959a59e7",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_1_luatoc#类_lua_txt.rawfile",
+            "MainBundleSize": 1059,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "2.luaToEnum.lua",
+            "AssetPath": "Assets/AB/Lua/2.luaToEnum.lua.txt",
+            "AssetGUID": "ffc36dc53f2dd10448381c077820faea",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_2_luatoenum_lua_txt.rawfile",
+            "MainBundleSize": 463,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "3.luaToList.lua",
+            "AssetPath": "Assets/AB/Lua/3.luaToList.lua.txt",
+            "AssetGUID": "6e490d839b0e8e642bc9a9d90765cd26",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_3_luatolist_lua_txt.rawfile",
+            "MainBundleSize": 1563,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "4.lua调用扩展.lua",
+            "AssetPath": "Assets/AB/Lua/4.lua调用扩展.lua.txt",
+            "AssetGUID": "0a2729d2de3b1c3449629bcee573b532",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_4_lua调用扩展_lua_txt.rawfile",
+            "MainBundleSize": 239,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "5.luaToRefOut.lua",
+            "AssetPath": "Assets/AB/Lua/5.luaToRefOut.lua.txt",
+            "AssetGUID": "cc8ca9e8907ff0b479d1889a7ed9de34",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_5_luatorefout_lua_txt.rawfile",
+            "MainBundleSize": 835,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "6.lua重载.lua",
+            "AssetPath": "Assets/AB/Lua/6.lua重载.lua.txt",
+            "AssetGUID": "0e22a067ab9c917478acd9fa4451260e",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_6_lua重载_lua_txt.rawfile",
+            "MainBundleSize": 791,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "7.luaEvent.lua",
+            "AssetPath": "Assets/AB/Lua/7.luaEvent.lua.txt",
+            "AssetGUID": "2ef3b1f3ea49e73429ebd21effa96313",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_7_luaevent_lua_txt.rawfile",
+            "MainBundleSize": 1217,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "8.lua二维.lua",
+            "AssetPath": "Assets/AB/Lua/8.lua二维.lua.txt",
+            "AssetGUID": "f333817811a25db408366bf0d06b1e56",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_8_lua二维_lua_txt.rawfile",
+            "MainBundleSize": 416,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "9.luanil.lua",
+            "AssetPath": "Assets/AB/Lua/9.luanil.lua.txt",
+            "AssetGUID": "0987d131f80111b439088a702281f8c2",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_9_luanil_lua_txt.rawfile",
+            "MainBundleSize": 705,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "10.lua系统类型.lua",
+            "AssetPath": "Assets/AB/Lua/10.lua系统类型.lua.txt",
+            "AssetGUID": "b02524b7c7833be42a9d9d8f63f39902",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_10_lua系统类型_lua_txt.rawfile",
+            "MainBundleSize": 359,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "11.lua协程.lua",
+            "AssetPath": "Assets/AB/Lua/11.lua协程.lua.txt",
+            "AssetGUID": "1057d77cab68aba4399c7d0d58de39aa",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_11_lua协程_lua_txt.rawfile",
+            "MainBundleSize": 796,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "12.lua泛型.lua",
+            "AssetPath": "Assets/AB/Lua/12.lua泛型.lua.txt",
+            "AssetGUID": "2fc3c9c65910c814ea3a927e810db74d",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_12_lua泛型_lua_txt.rawfile",
+            "MainBundleSize": 1024,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "13.lua热更新补丁.lua",
+            "AssetPath": "Assets/AB/Lua/13.lua热更新补丁.lua.txt",
+            "AssetGUID": "ab16d80f97e7b694db2504b777daea0b",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_13_lua热更新补丁_lua_txt.rawfile",
+            "MainBundleSize": 346,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "14.lua热更新多个函数.lua",
+            "AssetPath": "Assets/AB/Lua/14.lua热更新多个函数.lua.txt",
+            "AssetGUID": "6e1213ae472d0a946983beff45765afa",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_14_lua热更新多个函数_lua_txt.rawfile",
+            "MainBundleSize": 677,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "15.lua热更新携程.lua",
+            "AssetPath": "Assets/AB/Lua/15.lua热更新携程.lua.txt",
+            "AssetGUID": "efabdc2e2cc1d2c41bf5ae23a08d348d",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_15_lua热更新携程_lua_txt.rawfile",
+            "MainBundleSize": 449,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "16.lua热更新属性索引.lua",
+            "AssetPath": "Assets/AB/Lua/16.lua热更新属性索引.lua.txt",
+            "AssetGUID": "2d7d0fde81138d149931f6460450d563",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_16_lua热更新属性索引_lua_txt.rawfile",
+            "MainBundleSize": 685,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "17.打包测试.lua",
+            "AssetPath": "Assets/AB/Lua/17.打包测试.lua.txt",
+            "AssetGUID": "af50bc645e38fcd46b2699e585b9da09",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_17_打包测试_lua_txt.rawfile",
+            "MainBundleSize": 19,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "LuaCoroutine.lua",
+            "AssetPath": "Assets/AB/Lua/LuaCoroutine.lua.txt",
+            "AssetGUID": "58a85821781013e4b8466657df2a328a",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_luacoroutine_lua_txt.rawfile",
+            "MainBundleSize": 325,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "luaMain.lua",
+            "AssetPath": "Assets/AB/Lua/luaMain.lua.txt",
+            "AssetGUID": "30240550bbc89c74294a81f9bc762f35",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_luamain_lua_txt.rawfile",
+            "MainBundleSize": 310,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "testA.lua",
+            "AssetPath": "Assets/AB/Lua/testA.lua.txt",
+            "AssetGUID": "667a878439969974baa89871c7f851a9",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_lua_testa_lua_txt.rawfile",
+            "MainBundleSize": 650,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "GameScene",
+            "AssetPath": "Assets/AB/Scenes/GameScene.unity",
+            "AssetGUID": "5dd8aac16929fac499f5ee8dd77ea78f",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_scenes.bundle",
+            "MainBundleSize": 344038,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "HotRoom",
+            "AssetPath": "Assets/AB/Scenes/HotRoom.unity",
+            "AssetGUID": "e7d4068de49469a4793f8bf3a366c07e",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_ab_scenes.bundle",
+            "MainBundleSize": 344038,
+            "DependBundles": [],
+            "DependAssets": [
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/Save.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_horizental_thumb.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_vertical_thumb.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/collapse.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/log_icon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_horizental_back.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/date.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/error_icon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/reporterScrollerSkin.guiskin",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/software.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/fps.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/even_log.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/clear.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_down_arraw.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_right_arraw.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/copyAll.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/memory.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/search.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/timer_1.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/selected.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/back.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/button_active.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/bar.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/buildFrom.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_left_arraw.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/clearOnSceneLoaded.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/warning_icon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_vertical_back.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/graphicCard.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/info.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/copy.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/ComputerIcon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/UnityIcon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/odd_log.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_up_arraw.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/user.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/close.png"
+            ]
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_1_luatoc#类_lua_txt.rawfile",
+            "FileName": "50f1d493d4672badb10322d40d10a964.rawfile",
+            "FileHash": "50f1d493d4672badb10322d40d10a964",
+            "FileCRC": "041f46f0",
+            "FileSize": 1059,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/1.luaToC#类.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_2_luatoenum_lua_txt.rawfile",
+            "FileName": "745e2992785d88926b4b265bcdd59e0d.rawfile",
+            "FileHash": "745e2992785d88926b4b265bcdd59e0d",
+            "FileCRC": "fe10800f",
+            "FileSize": 463,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/2.luaToEnum.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_3_luatolist_lua_txt.rawfile",
+            "FileName": "6abe2c409bf4465f3517f1b2ebd90d55.rawfile",
+            "FileHash": "6abe2c409bf4465f3517f1b2ebd90d55",
+            "FileCRC": "cd2c131e",
+            "FileSize": 1563,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/3.luaToList.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_4_lua调用扩展_lua_txt.rawfile",
+            "FileName": "c9348a26bf07afce5a84c38df9cdd8a6.rawfile",
+            "FileHash": "c9348a26bf07afce5a84c38df9cdd8a6",
+            "FileCRC": "65621b08",
+            "FileSize": 239,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/4.lua调用扩展.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_5_luatorefout_lua_txt.rawfile",
+            "FileName": "7728534880fd14c7fd19874f8637214c.rawfile",
+            "FileHash": "7728534880fd14c7fd19874f8637214c",
+            "FileCRC": "593d6597",
+            "FileSize": 835,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/5.luaToRefOut.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_6_lua重载_lua_txt.rawfile",
+            "FileName": "720974187d85a78bdc9cd49a96ea0f15.rawfile",
+            "FileHash": "720974187d85a78bdc9cd49a96ea0f15",
+            "FileCRC": "475cb8f9",
+            "FileSize": 791,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/6.lua重载.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_7_luaevent_lua_txt.rawfile",
+            "FileName": "c320e96d752bab9807ad1e06ee838c3b.rawfile",
+            "FileHash": "c320e96d752bab9807ad1e06ee838c3b",
+            "FileCRC": "282adf34",
+            "FileSize": 1217,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/7.luaEvent.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_8_lua二维_lua_txt.rawfile",
+            "FileName": "d83dd5a79628c6cfb977170d11aef635.rawfile",
+            "FileHash": "d83dd5a79628c6cfb977170d11aef635",
+            "FileCRC": "200ca871",
+            "FileSize": 416,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/8.lua二维.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_9_luanil_lua_txt.rawfile",
+            "FileName": "dcfb068aa63039a44536095b049e1d7a.rawfile",
+            "FileHash": "dcfb068aa63039a44536095b049e1d7a",
+            "FileCRC": "b2a3cbc7",
+            "FileSize": 705,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/9.luanil.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_10_lua系统类型_lua_txt.rawfile",
+            "FileName": "a02a84cf97405b69d7c98ebcc79e7fd8.rawfile",
+            "FileHash": "a02a84cf97405b69d7c98ebcc79e7fd8",
+            "FileCRC": "47273f15",
+            "FileSize": 359,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/10.lua系统类型.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_11_lua协程_lua_txt.rawfile",
+            "FileName": "6fd8cc7d01c3ca1b1d771fca432dccac.rawfile",
+            "FileHash": "6fd8cc7d01c3ca1b1d771fca432dccac",
+            "FileCRC": "2a0a348b",
+            "FileSize": 796,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/11.lua协程.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_12_lua泛型_lua_txt.rawfile",
+            "FileName": "825a22c6dc13be3ef036b7913586d132.rawfile",
+            "FileHash": "825a22c6dc13be3ef036b7913586d132",
+            "FileCRC": "39462591",
+            "FileSize": 1024,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/12.lua泛型.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_13_lua热更新补丁_lua_txt.rawfile",
+            "FileName": "4844e0d08c965224235efd43fb499dba.rawfile",
+            "FileHash": "4844e0d08c965224235efd43fb499dba",
+            "FileCRC": "9a1aa9ae",
+            "FileSize": 346,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/13.lua热更新补丁.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_14_lua热更新多个函数_lua_txt.rawfile",
+            "FileName": "c3bb0f4b274dd4648a71e8d2ddad15ff.rawfile",
+            "FileHash": "c3bb0f4b274dd4648a71e8d2ddad15ff",
+            "FileCRC": "cc545b60",
+            "FileSize": 677,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/14.lua热更新多个函数.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_15_lua热更新携程_lua_txt.rawfile",
+            "FileName": "298f5b5593eeaecdd19c8e54c94e0f11.rawfile",
+            "FileHash": "298f5b5593eeaecdd19c8e54c94e0f11",
+            "FileCRC": "c73864ab",
+            "FileSize": 449,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/15.lua热更新携程.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_16_lua热更新属性索引_lua_txt.rawfile",
+            "FileName": "740c273c829680d40e1da66f298f0841.rawfile",
+            "FileHash": "740c273c829680d40e1da66f298f0841",
+            "FileCRC": "ee483b29",
+            "FileSize": 685,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/16.lua热更新属性索引.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_17_打包测试_lua_txt.rawfile",
+            "FileName": "8f2f862c7e672be8d288e955c2ce33bc.rawfile",
+            "FileHash": "8f2f862c7e672be8d288e955c2ce33bc",
+            "FileCRC": "9fc7440e",
+            "FileSize": 19,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/17.打包测试.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_luacoroutine_lua_txt.rawfile",
+            "FileName": "d7a7bdcbf64a2e30101c955eec7c5503.rawfile",
+            "FileHash": "d7a7bdcbf64a2e30101c955eec7c5503",
+            "FileCRC": "ae9ac516",
+            "FileSize": 325,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/LuaCoroutine.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_luamain_lua_txt.rawfile",
+            "FileName": "c017a54cfa178cce5ce48fa6a6a926c5.rawfile",
+            "FileHash": "c017a54cfa178cce5ce48fa6a6a926c5",
+            "FileCRC": "374c3622",
+            "FileSize": 310,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/luaMain.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_testa_lua_txt.rawfile",
+            "FileName": "19a35ab3be226d81d7920a12d825bed9.rawfile",
+            "FileHash": "19a35ab3be226d81d7920a12d825bed9",
+            "FileCRC": "dbeb9b22",
+            "FileSize": 650,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Lua/testA.lua.txt"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_scenes.bundle",
+            "FileName": "96907ac99191e0acf834444f6e3f7b61.bundle",
+            "FileHash": "96907ac99191e0acf834444f6e3f7b61",
+            "FileCRC": "5bc7d805",
+            "FileSize": 344038,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [],
+            "AllBuiltinAssets": [
+                "Assets/AB/Scenes/GameScene.unity",
+                "Assets/AB/Scenes/HotRoom.unity",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/Save.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_horizental_thumb.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_vertical_thumb.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/collapse.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/log_icon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_horizental_back.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/date.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/error_icon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/reporterScrollerSkin.guiskin",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/software.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/fps.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/even_log.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/clear.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_down_arraw.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_right_arraw.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/copyAll.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/memory.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/search.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/timer_1.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/selected.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/back.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/button_active.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/bar.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/buildFrom.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_left_arraw.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/clearOnSceneLoaded.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/warning_icon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_vertical_back.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/graphicCard.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/info.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/copy.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/ComputerIcon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/UnityIcon.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/odd_log.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/scroller_up_arraw.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/user.png",
+                "Assets/Unity-Logs-Viewer-master/Reporter/Images/close.png"
+            ]
+        }
+    ],
+    "RedundancyInfos": []
+}

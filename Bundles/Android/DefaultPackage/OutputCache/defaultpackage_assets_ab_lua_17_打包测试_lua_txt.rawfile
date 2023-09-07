@@ -1,0 +1,7 @@
+print("AAAAAAAA")
+print("BBBBBBBBBBBB")
+
+local a = GameObject.Find("Cube");
+
+a.transform.localScale = UnityEngine.Vector3(3, 8, 2)
+a.transform:Rotate(UnityEngine.Vector3.up, 80);

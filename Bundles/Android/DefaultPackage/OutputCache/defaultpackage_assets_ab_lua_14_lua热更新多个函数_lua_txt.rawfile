@@ -1,0 +1,35 @@
+print("lua 热更新 c# 代码")
+
+
+print("--------热更多个函数-------")
+
+-- xlua.hotfix(CS.LuaManager, {
+--     Update = function(self)
+--         print(os.time())
+--     end,
+--     AAA = function()
+--         print("替换后")
+--     end,
+--     BBB = function(self, str)
+--         print(str)
+--     end
+
+
+-- })
+
+--构造函数重写
+xlua.hotfix(CS.Hotfixtest, {
+    --构造函数，先调用原生，再调用重写的
+    [".ctor"] = function()
+        print("lua热补丁构造")
+    end,
+    Speak = function(self, str)
+        print("lua 说:" .. str)
+    end,
+    --析构函数
+    -- Finalize = function()
+
+    -- end
+
+
+})

@@ -1,0 +1,39 @@
+print("lua 调用 c# nil 和 null")
+
+--往场景对象上添加一个脚本，如果存在就不加 不存在就加
+
+GameObject = CS.UnityEngine.GameObject
+
+Rigidbody = CS.UnityEngine.Rigidbody
+
+local obj = GameObject("测试加脚本")
+
+local rig = obj:GetComponent(typeof(Rigidbody))
+print(rig)
+--判断空
+--nil 和 null 没法 == 比较
+-- if rig == nil then
+--     obj:AddComponent(typeof(Rigidbody))
+-- end
+-- print(rig)
+
+
+if rig:Equals(nil) then
+    obj:AddComponent(typeof(Rigidbody))
+end
+print(rig)
+
+
+
+
+if IsNull(rig) then
+    obj:AddComponent(typeof(Rigidbody))
+end
+print(rig)
+
+
+
+if rig:IsNull() then
+    obj:AddComponent(typeof(Rigidbody))
+end
+print(rig)

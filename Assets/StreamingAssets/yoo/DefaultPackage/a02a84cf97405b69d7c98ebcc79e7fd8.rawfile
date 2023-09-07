@@ -1,0 +1,13 @@
+print("lua 调用 c# 系统类型互相访问")
+
+
+local silder = GameObject.Find("Slider")
+print(silder)
+local SliderScript = silder:GetComponent(typeof(UI.Slider))
+print(SliderScript)
+
+--c# 事件 订阅 lua的方法 ，需要类型支持 <float> 属于c#调用lua的方法
+
+SliderScript.onValueChanged:AddListener(function(f)
+    print(f)
+end)

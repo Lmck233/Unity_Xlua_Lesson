@@ -1,0 +1,50 @@
+print("lua 调用 c# 知识点")
+
+
+
+--CS.命名空间.类名
+--实例化一个对象，lua没有new   会创建一个空物体
+local obj1 = CS.UnityEngine.GameObject()
+
+local obj2 = CS.UnityEngine.GameObject("sasasa")
+
+
+
+--为了方便使用，使用全局变量
+GameObject = CS.UnityEngine.GameObject
+
+local obj3 = GameObject()
+
+
+--类中的静态对象，可以直接使用.来调用
+local obj4 = GameObject.Find("sasasa")
+
+
+--得到对象中的成员变量  直接.调用
+
+print(obj4.transform.position)
+Debug = CS.UnityEngine.Debug
+Debug.Log(obj4.transform.position)
+
+
+--如果使用对象中的成员方法，一定要使用：
+Vector3 = CS.UnityEngine.Vector3
+obj4.transform:Translate(Vector3.right)
+Debug.Log(obj4.transform.position)
+
+
+--自定义类的调用
+local t = CS.Test1()
+t:log("aaaa")
+
+local t1 = CS.test.Test1()
+t1:log("bbbb")
+
+
+--继承Mono的类
+--1.不能直接new
+--2.添加使用typeof 类添加脚本
+
+local obj5 = GameObject("叫脚本测试")
+
+obj5:AddComponent(typeof(CS.GameMain))

@@ -1,0 +1,420 @@
+{
+    "FileVersion": "1.5.2",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 1,
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "v1.0",
+    "AssetList": [
+        {
+            "Address": "1.luaToC#类.lua",
+            "AssetPath": "Assets/AB/Lua/1.luaToC#类.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "2.luaToEnum.lua",
+            "AssetPath": "Assets/AB/Lua/2.luaToEnum.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "3.luaToList.lua",
+            "AssetPath": "Assets/AB/Lua/3.luaToList.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "4.lua调用扩展.lua",
+            "AssetPath": "Assets/AB/Lua/4.lua调用扩展.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "5.luaToRefOut.lua",
+            "AssetPath": "Assets/AB/Lua/5.luaToRefOut.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "6.lua重载.lua",
+            "AssetPath": "Assets/AB/Lua/6.lua重载.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependIDs": []
+        },
+        {
+            "Address": "7.luaEvent.lua",
+            "AssetPath": "Assets/AB/Lua/7.luaEvent.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "8.lua二维.lua",
+            "AssetPath": "Assets/AB/Lua/8.lua二维.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "9.luanil.lua",
+            "AssetPath": "Assets/AB/Lua/9.luanil.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependIDs": []
+        },
+        {
+            "Address": "10.lua系统类型.lua",
+            "AssetPath": "Assets/AB/Lua/10.lua系统类型.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependIDs": []
+        },
+        {
+            "Address": "11.lua协程.lua",
+            "AssetPath": "Assets/AB/Lua/11.lua协程.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependIDs": []
+        },
+        {
+            "Address": "12.lua泛型.lua",
+            "AssetPath": "Assets/AB/Lua/12.lua泛型.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependIDs": []
+        },
+        {
+            "Address": "13.lua热更新补丁.lua",
+            "AssetPath": "Assets/AB/Lua/13.lua热更新补丁.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependIDs": []
+        },
+        {
+            "Address": "14.lua热更新多个函数.lua",
+            "AssetPath": "Assets/AB/Lua/14.lua热更新多个函数.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13,
+            "DependIDs": []
+        },
+        {
+            "Address": "15.lua热更新携程.lua",
+            "AssetPath": "Assets/AB/Lua/15.lua热更新携程.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14,
+            "DependIDs": []
+        },
+        {
+            "Address": "16.lua热更新属性索引.lua",
+            "AssetPath": "Assets/AB/Lua/16.lua热更新属性索引.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15,
+            "DependIDs": []
+        },
+        {
+            "Address": "17.打包测试.lua",
+            "AssetPath": "Assets/AB/Lua/17.打包测试.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependIDs": []
+        },
+        {
+            "Address": "LuaCoroutine.lua",
+            "AssetPath": "Assets/AB/Lua/LuaCoroutine.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 17,
+            "DependIDs": []
+        },
+        {
+            "Address": "luaMain.lua",
+            "AssetPath": "Assets/AB/Lua/luaMain.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 18,
+            "DependIDs": []
+        },
+        {
+            "Address": "testA.lua",
+            "AssetPath": "Assets/AB/Lua/testA.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 19,
+            "DependIDs": []
+        },
+        {
+            "Address": "GameScene",
+            "AssetPath": "Assets/AB/Scenes/GameScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        },
+        {
+            "Address": "HotRoom",
+            "AssetPath": "Assets/AB/Scenes/HotRoom.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 20,
+            "DependIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_1_luatoc#类_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "50f1d493d4672badb10322d40d10a964",
+            "FileCRC": "041f46f0",
+            "FileSize": 1059,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_2_luatoenum_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "745e2992785d88926b4b265bcdd59e0d",
+            "FileCRC": "fe10800f",
+            "FileSize": 463,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_3_luatolist_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "6abe2c409bf4465f3517f1b2ebd90d55",
+            "FileCRC": "cd2c131e",
+            "FileSize": 1563,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_4_lua调用扩展_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "c9348a26bf07afce5a84c38df9cdd8a6",
+            "FileCRC": "65621b08",
+            "FileSize": 239,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_5_luatorefout_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "7728534880fd14c7fd19874f8637214c",
+            "FileCRC": "593d6597",
+            "FileSize": 835,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_6_lua重载_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "720974187d85a78bdc9cd49a96ea0f15",
+            "FileCRC": "475cb8f9",
+            "FileSize": 791,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_7_luaevent_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "c320e96d752bab9807ad1e06ee838c3b",
+            "FileCRC": "282adf34",
+            "FileSize": 1217,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_8_lua二维_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "d83dd5a79628c6cfb977170d11aef635",
+            "FileCRC": "200ca871",
+            "FileSize": 416,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_9_luanil_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "dcfb068aa63039a44536095b049e1d7a",
+            "FileCRC": "b2a3cbc7",
+            "FileSize": 705,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_10_lua系统类型_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "a02a84cf97405b69d7c98ebcc79e7fd8",
+            "FileCRC": "47273f15",
+            "FileSize": 359,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_11_lua协程_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "6fd8cc7d01c3ca1b1d771fca432dccac",
+            "FileCRC": "2a0a348b",
+            "FileSize": 796,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_12_lua泛型_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "825a22c6dc13be3ef036b7913586d132",
+            "FileCRC": "39462591",
+            "FileSize": 1024,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_13_lua热更新补丁_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "4844e0d08c965224235efd43fb499dba",
+            "FileCRC": "9a1aa9ae",
+            "FileSize": 346,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_14_lua热更新多个函数_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "c3bb0f4b274dd4648a71e8d2ddad15ff",
+            "FileCRC": "cc545b60",
+            "FileSize": 677,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_15_lua热更新携程_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "298f5b5593eeaecdd19c8e54c94e0f11",
+            "FileCRC": "c73864ab",
+            "FileSize": 449,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_16_lua热更新属性索引_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "740c273c829680d40e1da66f298f0841",
+            "FileCRC": "ee483b29",
+            "FileSize": 685,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_17_打包测试_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "8f2f862c7e672be8d288e955c2ce33bc",
+            "FileCRC": "9fc7440e",
+            "FileSize": 19,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_luacoroutine_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "d7a7bdcbf64a2e30101c955eec7c5503",
+            "FileCRC": "ae9ac516",
+            "FileSize": 325,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_luamain_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "c017a54cfa178cce5ce48fa6a6a926c5",
+            "FileCRC": "374c3622",
+            "FileSize": 310,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_lua_testa_lua_txt.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "19a35ab3be226d81d7920a12d825bed9",
+            "FileCRC": "dbeb9b22",
+            "FileSize": 650,
+            "IsRawFile": true,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_ab_scenes.bundle",
+            "UnityCRC": 930017262,
+            "FileHash": "96907ac99191e0acf834444f6e3f7b61",
+            "FileCRC": "5bc7d805",
+            "FileSize": 344038,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        }
+    ]
+}

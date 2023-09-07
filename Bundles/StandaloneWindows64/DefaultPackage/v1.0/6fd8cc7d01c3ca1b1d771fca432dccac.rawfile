@@ -1,0 +1,33 @@
+print("lua 调用 c# 携程")
+
+WaitForSeconds = CS.UnityEngine.WaitForSeconds
+--c#的携程都是 通过继承 mono的类，启动一个携程 startCoroutine
+
+
+--创建一个物体 添加脚本  脚本继承mono 使用他开启携程
+local obj = GameObject("携程测试")
+
+local mono = obj:AddComponent(typeof(CS.LuaCallC))
+
+
+--希望用来开启的携程
+local fun = function()
+    local a = 1
+    while true do
+        --跟 c# 的 yield return 一样
+        --就使用lua中的携程返回
+        coroutine.yield(WaitForSeconds(1))
+
+        print(a)
+        a = a + 1
+    end
+end
+
+--不能直接传入
+--mono:StartCoroutine(fun)
+
+
+--需要使用Xlua的工具类
+local util2 = require 'xlua.util'
+--固定写法
+mono:StartCoroutine(util2.cs_generator(fun))

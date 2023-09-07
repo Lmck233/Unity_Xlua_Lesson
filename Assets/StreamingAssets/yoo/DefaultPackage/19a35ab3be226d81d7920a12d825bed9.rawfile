@@ -1,0 +1,49 @@
+print("Test A")
+
+TestBool = true
+Testnumber = 123456
+TestString = "我是lua"
+
+TestTable = { 123456, "飒飒飒飒" }
+
+TestFunction = function(str)
+    print(str)
+end
+
+
+
+
+--list
+testlist = { 1, 2, 3, 4, 5, 6, 7, 8, 9 }
+testlist1 = { "123456", "321", true, 1, 1.5 }
+
+
+--dic
+testdic = {
+    ["1"] = 1,
+    ["2"] = 2,
+    ["3"] = 3,
+    ["4"] = 4,
+}
+
+testdic1 = {
+    ["1"] = 1,
+    [true] = 2,
+    [false] = 3,
+    ["1236"] = 4,
+}
+
+
+--tebal
+
+TestCalass = {
+
+    testInt = 2,
+    testBooL = true,
+    testFloat = 1.2,
+    testString = "sasa",
+    testFun = function()
+        print("123456");
+    end
+
+}

@@ -1,0 +1,38 @@
+print("lua 调用 c# Ref Out")
+
+
+Lesson5 = CS.Lesson5
+
+local obj = Lesson5()
+
+print("----------ref---------------")
+--ref 返回 以多返回形式返回
+--如果有返回值 第一个是返回值 后面才是ref
+--ref 需要传入默认值
+--a 函数返回值 b c 是 ref
+local a, b, c = obj:RefFun(1, 0, 0, 1)
+print(a)
+print(b)
+print(c)
+
+
+print("----------out---------------")
+--out 返回 以多返回形式返回
+--如果有返回值 第一个是返回值 后面才是out
+--out 需要传入默认值
+
+local a, b, c = obj:OutFun(20, 30)
+print(a)
+print(b)
+print(c)
+
+
+print("----------混合---------------")
+
+--混合使用时，综合规则
+--ref 需要占位 out不用传
+--第一个是返回值，从左到右是ref或者out
+local a, b, c = obj:RefAndOutFun(20, 1)
+print(a)
+print(b)
+print(c)

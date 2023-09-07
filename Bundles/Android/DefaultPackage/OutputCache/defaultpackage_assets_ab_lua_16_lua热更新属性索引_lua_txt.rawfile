@@ -1,0 +1,24 @@
+print("lua 热更新 c# 属性 索引")
+
+
+xlua.hotfix(CS.Hotfixtest, {
+    --如果是属性进行热补丁
+    --set_属性名 是设置属性的方法
+    --get_属性名 是得到属性的方法
+    set_Age = function(self, v)
+        print("lua 重定向的属性" .. v)
+    end,
+    get_Age = function(self)
+        return 10;
+    end,
+    --索引器固定写法
+    --set_Item 通过索引器设置
+    --get_Item 通过索引器获取
+    set_Item = function(self, index, v)
+        print("lua 重定向 索引:" .. index .. "值:" .. v)
+    end,
+    get_Item = function(self, index)
+        print("lua 重定向 索引值")
+        return 0
+    end
+})
